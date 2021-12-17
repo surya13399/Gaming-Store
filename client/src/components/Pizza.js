@@ -13,7 +13,7 @@ export default function Pizza({ pizza }) {
  
 
   const [quantity, setquantity] = useState(1);
-  const [varient, setvarient] = useState("small");
+  const [varient, setvarient] = useState("PC");
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);

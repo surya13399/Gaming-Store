@@ -7,9 +7,9 @@ import Success from "../components/Success";
 export default function Editpizza({ match }) {
   const dispatch = useDispatch();
   const [name, setname] = useState("");
-  const [smallprice, setsmallprice] = useState();
-  const [mediumprice, setmediumprice] = useState();
-  const [largeprice, setlargeprice] = useState();
+  const [PCprice, setPCprice] = useState();
+  const [PS5price, setPS5price] = useState();
+  const [Xboxprice, setXboxprice] = useState();
   const [image, setimage] = useState("");
   const [description, setdescription] = useState("");
   const [category, setcategory] = useState("");
@@ -30,9 +30,9 @@ export default function Editpizza({ match }) {
             setname(pizza.name)
             setdescription(pizza.description)
             setcategory(pizza.category)
-            setsmallprice(pizza.prices[0]['small'])
-            setmediumprice(pizza.prices[0]['medium'])
-            setlargeprice(pizza.prices[0]['large'])
+            setPCprice(pizza.prices[0]['PC'])
+            setPS5price(pizza.prices[0]['PS5'])
+            setXboxprice(pizza.prices[0]['Xbox'])
             setimage(pizza.image)
         }
         else{
@@ -58,9 +58,9 @@ export default function Editpizza({ match }) {
       description,
       category,
       prices: {
-        small: smallprice,
-        medium: mediumprice,
-        large: largeprice,
+        PC: PCprice,
+        PS5: PS5price,
+        Xbox: Xboxprice,
       },
     };
 
@@ -92,28 +92,28 @@ export default function Editpizza({ match }) {
           <input
             className="form-control"
             type="text"
-            placeholder="small varient price"
-            value={smallprice}
+            placeholder="PC varient price"
+            value={PCprice}
             onChange={(e) => {
-              setsmallprice(e.target.value);
+              setPCprice(e.target.value);
             }}
           />
           <input
             className="form-control"
             type="text"
-            placeholder="medium varient price"
-            value={mediumprice}
+            placeholder="PS5 varient price"
+            value={PS5price}
             onChange={(e) => {
-              setmediumprice(e.target.value);
+              setPS5price(e.target.value);
             }}
           />
           <input
             className="form-control"
             type="text"
-            placeholder="large varient price"
-            value={largeprice}
+            placeholder="Xbox varient price"
+            value={Xboxprice}
             onChange={(e) => {
-              setlargeprice(e.target.value);
+              setXboxprice(e.target.value);
             }}
           />
           <input

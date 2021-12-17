@@ -36,9 +36,9 @@ export default function Pizzaslist() {
                 <td>{pizza.name}</td>
                 <td>
 
-                   Small : {pizza.prices[0]['small']} <br/>
-                   Medium : {pizza.prices[0]['medium']} <br/>
-                   Large : {pizza.prices[0]['large']}
+                   PC : {pizza.prices[0]['PC']} <br/>
+                   PS5 : {pizza.prices[0]['PS5']} <br/>
+                   Xbox : {pizza.prices[0]['Xbox']}
                     
                 </td>
                 <td>{pizza.category}</td>

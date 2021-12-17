@@ -1,12 +1,12 @@
 const pizzas =[
   {
     name: "PEPPER BARBECUE CHICKEN",
-    varients: ["small", "medium", "large"],
+    varients: ["PC", "PS5", "Xbox"],
     prices: [
       {
-        small: 200,
-        medium: 350,
-        large: 400,
+        PC: 200,
+        PS5: 350,
+        Xbox: 400,
       },
     ],
     category: "nonveg",
@@ -15,12 +15,12 @@ const pizzas =[
   },
   {
     name: "Non Veg Supreme",
-    varients: ["small", "medium", "large"],
+    varients: ["PC", "PS5", "Xbox"],
     prices: [
       {
-        small: 200,
-        medium: 350,
-        large: 400,
+        PC: 200,
+        PS5: 350,
+        Xbox: 400,
       },
     ],
     category: "nonveg",
@@ -30,11 +30,11 @@ const pizzas =[
   },
   {
     name: "Golden Corn Pizza",
-    varients: ["small", "medium", "large"],
+    varients: ["PC", "PS5", "Xbox"],
     prices: [
       {
-        small: 180,
-        medium: 250,
+        PC: 180,
+        PS5: 250,
       },
     ],
     category: "veg",
@@ -44,12 +44,12 @@ const pizzas =[
   },
   {
     name: "Jalapeno & Red Paprika Pizza",
-    varients: ["small", "medium", "large"],
+    varients: ["PC", "PS5", "Xbox"],
     prices: [
       {
-        small: 200,
-        medium: 300,
-        large: 420,
+        PC: 200,
+        PS5: 300,
+        Xbox: 420,
       },
     ],
     category: "veg",
@@ -59,12 +59,12 @@ const pizzas =[
   },
   {
     name: "Margerita",
-    varients: ["small", "medium", "large"],
+    varients: ["PC", "PS5", "Xbox"],
     prices: [
       {
-        small: 150,
-        medium: 220,
-        large: 300,
+        PC: 150,
+        PS5: 220,
+        Xbox: 300,
       },
     ],
     category: "veg",
@@ -75,11 +75,11 @@ const pizzas =[
   },
   {
     name: "Double Cheese Margherita Pizza",
-    varients: ["small", "medium", "large"],
+    varients: ["PC", "PS5", "Xbox"],
     prices: [
       {
-        small: 250,
-        medium: 380,
+        PC: 250,
+        PS5: 380,
       },
     ],
     category: "veg",

@@ -8,18 +8,24 @@ body , html {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif !important;
   overflow-x: hidden !important;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,176,143,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.navbar{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,176,143,1) 35%, rgba(0,212,255,1) 100%);
+}
 .nav-link{
   color:black !important;
 }
 .navbar-brand{
-  color:black !important;
+  color:white !important;
+  
 }
 
 h1{
@@ -29,7 +35,7 @@ h1{
   display: flex !important;
 }
 .btn{
-  background-color:red !important;
+  background-color:black!important;
   color:white !important;
   box-shadow: none !important;
 }
